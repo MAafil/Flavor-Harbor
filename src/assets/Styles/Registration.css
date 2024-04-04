@@ -1,0 +1,101 @@
+/* Registration.css */
+
+.registration-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #f9f9f9; /* Same background color as login content */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  display: flex; /* Use flexbox to align items */
+  flex-direction: column; /* Align items vertically */
+}
+
+.registration-container h2 {
+  font-size: 24px; /* Same as login title */
+  margin-bottom: 20px;
+  text-align: center;
+  color: #8a72c1; /* Same as login button background color */
+}
+
+.registration-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.registration-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.registration-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #a18ad6; /* Same as login button background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registration-container button:hover {
+  background-color: #7b5ead; /* Same as login button hover background color */
+}
+
+.registration-container p {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.registration-container p button {
+  background-color: #ffcb77; /* Same as login register button background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.registration-container p button:hover {
+  background-color: #ffac33; /* Same as login register button hover background color */
+}
+
+/* Styles for success message */
+.success-message {
+  background-color: rgba(
+    249,
+    249,
+    249,
+    0.5
+  ); /* Set background color for success message */
+  color: #ffac33; /* Set text color for success message */
+  padding: 10px; /* Add padding to the success message */
+  border-radius: 5px; /* Add border radius to the success message */
+  text-align: center; /* Align text to center in the success message */
+  margin-bottom: 100px; /* Add margin to separate from other content */
+  margin-top: 100px;
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  margin-bottom: 20px;
+}

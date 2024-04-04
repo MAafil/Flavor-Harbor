@@ -1,0 +1,117 @@
+/* UserProfile.css */
+.user-profile {
+  max-width: 600px;
+  margin: 100px auto 20px;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-heading {
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.user-profile .profile-section {
+  margin-bottom: 30px;
+}
+
+.user-profile .profile-section button {
+  width: 100%;
+  padding: 12px;
+  background-color: #a18ad6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-profile .profile-section button:hover {
+  background-color: #7b5ead;
+}
+
+.user-profile .recipe-list {
+  margin-top: 20px;
+}
+
+.user-profile .recipe-list h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.user-profile .recipe-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-profile .recipe-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.user-profile .recipe-list li:last-child {
+  border-bottom: none;
+}
+
+.user-profile .recipe-list li img {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.user-profile .recipe-list li p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.recipe-list {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-list li {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Add space between buttons */
+.user-profile .profile-section button:first-child {
+  margin-bottom: 10px;
+}
+/* UserProfile.css */
+/* Loading state */
+.user-profile .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust height as needed */
+}
+
+.user-profile .loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #333; /* Adjust spinner color */
+  border-radius: 50%;
+  width: 60px; /* Adjust width and height as needed */
+  height: 60px;
+  animation: spin 1s linear infinite; /* Apply rotation animation */
+}
+
+/* Spinner animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

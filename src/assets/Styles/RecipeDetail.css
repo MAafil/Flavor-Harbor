@@ -1,0 +1,68 @@
+/* RecipeDetail.css */
+
+.recipe-detail-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 70px; /* Adjust this value according to the height of your footer */
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.ingredients {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.instructions {
+  margin-bottom: 20px;
+}
+
+.otherDetails {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
